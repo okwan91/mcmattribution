@@ -19,5 +19,33 @@ There are four main marketing channels our users could interact with such as "Yo
 * Gen Z
 * Gen Alpha
 
-This is to mimic user information if the data was organically obtained. My data also has clickthrough and purchase/conversion fields as well.
+This is to mimic user information if the data was organically obtained. My data also has clickthrough and purchase/conversion fields as well. Below is how our data looks thus far:
+![screenshot](https://github.com/okwan91/mcmattribution/blob/main/Graphs/datascreen.png)
+
+##### Data Details
+* 6,822,360 rows 
+* 9,993 users
+* 53,897 clicks
+* 16,855 purchases
+
+### Exploratory Data Analysis
+#### Visits by Channel
+|     Channel    |      Visits     |
+| -------------  |:---------------:|
+| E-mail         | 565,854         |
+| Facebook       | 2,079,124       |
+| Search         | 2,088,900       |
+| YouTube        | 2,088,483       |
+
+
+Below is a table comparing the amount of clicks versus purchases:
+![clicks vs purchases](https://github.com/okwan91/mcmattribution/blob/main/Graphs/clicksvspurch.png)
+As expected, there is a significantly higher number amount of clicks versus purchases, except for e-mail which has a slightly higher amount of purchases compared to clicks. This could be a scenario where the user receives an e-mail with the ad with some sort of promotion and instead of clicking the e-mail the user navigates directly to the site to purchase. The lowest performer our weakest in performer for purchases actually turns out to be our strongest performer in clicks, YouTube. This is likely due to our assumptions that most YouTube users are children and are less likely to have their own money to make an online purchase and wouuld have to request permission from their parents. 
+
+![impressions vs clicks](https://github.com/okwan91/mcmattribution/blob/main/Graphs/Channelimpvsclicks.png)
+The above scatterplot compares the amount of views (or impressions) against the amount of clicks by channel. I assume that after a certain amount of impressions, that it can lead to a higher rate of clicks up to a certain degree. Then after we exceed this optimum level of impressions, our click rate drops off.
+
+![impressions vs purchase](https://github.com/okwan91/mcmattribution/blob/main/Graphs/Channelimpvsbuy.png)
+Similar to the previous plot, the above shows the rate of purchases/conversions against level of impressions.
+
 
