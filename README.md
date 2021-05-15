@@ -1,5 +1,6 @@
 # Which Platform Rules Them All?
 ###### Multi-Channel Marketing Attribution 
+![war](https://github.com/okwan91/mcmattribution/blob/main/social-media-war.jpg)
 
 ### Background
 A problem some companies face when trying to assess the best strategies for their advertisements and assessing which channels can lead them to a conversion. A conversion is When a user who has been exposed to an advertisement achieves the company’s desired goal. Examples of a conversion are a subscription, email sign up, or purchase. If a company utilizes a multi-channel marketing strategy and a purchase of the advertised product is made, which channel gets that credit, or also known as attribution? This project will explore how to utilize the Markov Chain method for channel attribution.
