@@ -66,7 +66,7 @@ If we utilize the first AND last touch attribution method, we get the below resu
 Is it correct to assume that the first or the last channels our users interacted with are the actual causes of conversion though? Typically, users will go through several phases before they make the final decision and act upon that decision to make a purchase of a product. If a user interacts with more than one channel, then each channel plays some part in the funnel that leads to a successful conversion. This is why I implemented the Markov Chain method.
 
 #### Markov Chain Method
-The Markov Chain method is a form of reinforcement learning where we assume that prior actions affect the decision making for the current action. Through the Markov method I will follow users through their journey, called a path, that wil lead to either a successful conversion or nothing. After I noted each user's path, I then calculated a base conversion rate and created a transition matrix that displayed the average probability of a user moving from one channel to another. 
+The Markov Chain method is a form of reinforcement learning where we assume that prior actions affect the decision making for the current action. Through the Markov method I will follow users through their journey, called a path, that wil lead to either a successful conversion or nothing. This method is great because not only can you calculate each channel's level of attribution, you can also calculate the removal impact of those channels from your marketing campaign. After I noted each user's path, I then calculated a base conversion rate and created a transition matrix that displayed the average probability of a user moving from one channel to another. 
 
 ![transition matrix](https://github.com/okwan91/mcmattribution/blob/main/Graphs/transitionheatmap.png)
 
@@ -78,5 +78,11 @@ As shown below, the channel with the highest level of attribution was e-mail. Th
 
 ![removal](https://github.com/okwan91/mcmattribution/blob/main/Graphs/channelremoval.png)
 
-To no surprise, removing e-mail from our marketing campaign showed the greatest affect on our conversion rate at 74%. Then it was followed by Facebook at 64%, Search at 63%, and YouTube at 57%. This was calculated by 
+To no surprise, removing e-mail from our marketing campaign showed the greatest affect on our conversion rate at 74%. Then it was followed by Facebook at 64%, Search at 63%, and YouTube at 57%. This was calculated by removing each channel and re-simulating the user journey to measure the change in conversion rates. 
+
+### Conclusions
+The Markov method is great because you're not attributing only one channel over the rest for successful conversions in a multi-channel marketing campaign, each channel has some level of impact on the user and their journey. This method can be utilized so that companies can implement more effective campaigns and know where their investments efforts lay and how to get the most returns out of their investments. 
+
+As a reminder, these results are based off of a simulation of real world data. The performance of each channel was as expected due to how our data was synthesized. In the marketing funnel, the user had a higher probability of making a purchase during the purchase stage of the funnel when interacting with an e-mail advertisement. 
+
 
