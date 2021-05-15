@@ -15,10 +15,10 @@ I was unable to find a dataset that had user demographic data and their interact
 * Repurchase
 
 There are four main marketing channels our users could interact with such as "YouTube, "Facebook", "Search", and "E-mail" and their timestamps. I also added a layer of user demographic information based off of the channel that they interacted with. For example, users who interact with Youtube are more likely to be between the ages of a child to a teenager of either gender. Facebook users were more likely to be male and likely in their mid 40s and above. For the sake of simplicity, I had user ages bucketed into four buckets:
-* Boomer
-* Millenial
-* Gen Z
-* Gen Alpha
+* Boomer (ages 50 and up)
+* Millenial (between mid 20s to mid 30s)
+* Gen Z (early to mid 20s)
+* Gen Alpha (teens and younger)
 
 This is to mimic user information if the data was organically obtained. My data also has clickthrough and purchase/conversion fields as well. Below is how our data looks thus far:
 ![screenshot](https://github.com/okwan91/mcmattribution/blob/main/Graphs/datascreen.png)
